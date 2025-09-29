@@ -1,6 +1,5 @@
 package personnages;
 
-import java.io.ObjectInputStream.GetField;
 
 public class Romains {
 	
@@ -21,6 +20,8 @@ public class Romains {
 	private String prendreParole() {
 		return "Le romain "+nom + " : ";
 	}
-	
+	public void recevoirCoup(int forceCoup) {
+		force-=forceCoup;
+	}
 }
 	
